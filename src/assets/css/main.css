@@ -66,3 +66,25 @@
     --table_header: rgb(246, 248, 250);
     --box_shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px !important;
 }
+
+
+.fas.fa-robot.menu-only {
+    font-size: 20px;
+    color: #828bb2;
+    margin-right: 5px;
+}
+
+a.pulse.theme_color.bell_notification_clicker {
+    margin-right: 15px !important;
+}
+
+@media (min-width: 1350px) {
+    .header_middle {
+        display: block !important;
+    }
+}
+
+
+.messengerContainer:hover {
+    cursor: pointer;
+}
