@@ -1,0 +1,50 @@
+/* General font smoothing */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Toastr styles */
+.toast-success {
+    background-color: var(--success) !important;
+}
+
+.toast-message,
+.toast-title,
+.toast {
+    color: var(--text_white);
+}
+
+.toast-error {
+    background-color: var(--danger) !important;
+}
+
+.toast-warning {
+    background-color: var(--warning) !important;
+}
+
+/* Root variables */
+:root {
+    --base_font: Poppins, sans-serif;
+    --box_shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px !important;
+    --base_color: #415094;
+    --gradient_1: #7c32ff;
+    --gradient_2: #7c32ff;
+    --gradient_3: #7c32ff;
+    --scroll_color: #828bb2;
+    --text-color: #828bb2;
+    --text_white: #ffffff;
+    --bg_white: #ffffff;
+    --text_black: #000000;
+    --bg_black: #000000;
+    --border_color: #EFF2F8;
+    --success: #51A351;
+    --success_with_opacity: #51A35123;
+    --warning: #E09079;
+    --danger: #FF6D68;
+    --danger_with_opacity: #FF6D6823;
+    --title_color: #415094;
+    --sidebar_bg: #0d0e12;
+    --sidebar_active: #ffffff;
+    --sidebar_hover: #ffffff;
+}
