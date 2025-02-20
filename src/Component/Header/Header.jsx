@@ -4,7 +4,7 @@ const Header = () => {
    
   return (
     <div>
-      <div id="main-content">
+      <div>
         <div className="container-fluid no-gutters" id="main-nav-for-chat">
         <div className="row">
                     <div className="col-lg-12 p-0">
