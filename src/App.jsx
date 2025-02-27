@@ -1,23 +1,34 @@
-import React from 'react'
-import SideNavaBar from './Component/SideNavaBar/SideNavaBar'
-import Header from './Component/Header/Header'
-import DashBoard from './Pages/DashBoard/DashBoard'
-import Footer from './Component/Footer/Footer'
-import AdmissionQuery from './Pages/Admin/Admission Query/Admissionquery'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-const App = () => {
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import SideNavaBar from './Component/SideNavaBar/SideNavaBar';
+import Footer from './Component/Footer/Footer';
+import DashBoard from './Pages/DashBoard/DashBoard';
+import Login from './Pages/login/login';
+import AdmissionQuery from './Pages/Admin/Admission Query/Admissionquery';
+
+const Layout = () => {
+  const location = useLocation();
+  const isLoginPage = location.pathname === "/login";
+
   return (
     <div>
-      <Router>
-      <SideNavaBar />
-        <Routes>
-          <Route path="/" element={<DashBoard />} />
-          <Route path='/admissionquery' element={<AdmissionQuery/>}/>
-        </Routes>
-        <Footer />
-      </Router>
+      {!isLoginPage && <SideNavaBar />}
+      <Routes>
+        <Route path="/" element={<DashBoard />} />
+        <Route path="/admissionquery" element={<AdmissionQuery />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+      {!isLoginPage && <Footer />}
     </div>
-  )
-}
+  );
+};
 
-export default App
+const App = () => {
+  return (
+    <Router> 
+      <Layout /> {/* Now inside Router, so useLocation works */}
+    </Router>
+  );
+};
+
+export default App;
