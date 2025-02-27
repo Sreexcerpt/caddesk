@@ -57,7 +57,7 @@ html[dir=rtl] .primary-input-label {
 }
 
 .sidebar #sidebar_menu {
-    background: var(--sidebar_bg)
+    background: #0a1438
 }
 
 .sidebar #sidebar_menu li a,
@@ -107,7 +107,7 @@ html[dir=rtl] .primary-input-label {
     position: sticky !important;
     z-index: 9999;
     top: 0;
-    background: var(--sidebar_bg)
+    background: #0a1438
 }
 
 .menu_seperator {
