@@ -9,7 +9,7 @@ function AdmissionQuery() {
                         <div class="row justify-content-between">
                             <h1>Admission Query</h1>
                             <div class="bc-pages">
-                                <a href="https://lms.webdigitalmantra.in/dashboard">Dashboard</a>
+                                <a href="dashboard">Dashboard</a>
                                 <a href="#">Admin Section</a>
                                 <a href="#">Admission Query</a>
                             </div>
@@ -19,7 +19,7 @@ function AdmissionQuery() {
                 <section class="admin-visitor-area up_admin_visitor">
                     <div class="container-fluid p-0">
 
-                        <form method="POST" action="https://lms.webdigitalmantra.in/admission-query-search" acceptCharset="UTF-8" class="form-horizontal" encType="multipart/form-data" id="infix_form"><input name="_token" type="hidden" value="G92gWikmGgoj8wSjZJ4xQU01Wvccki6YfQoZ3R53" />
+                        <form method="POST" action="admission-query-search" acceptCharset="UTF-8" class="form-horizontal" encType="multipart/form-data" id="infix_form"><input name="_token" type="hidden" value="G92gWikmGgoj8wSjZJ4xQU01Wvccki6YfQoZ3R53" />
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="white-box">
@@ -241,7 +241,7 @@ function AdmissionQuery() {
                                 <div class="mt-40 d-flex justify-content-between">
                                     <button type="button" class="primary-btn tr-bg"
                                         data-dismiss="modal">Cancel</button>
-                                    <form method="POST" action="https://lms.webdigitalmantra.in/admission-query-delete" acceptCharset="UTF-8" encType="multipart/form-data"><input name="_token" type="hidden" value="G92gWikmGgoj8wSjZJ4xQU01Wvccki6YfQoZ3R53" />
+                                    <form method="POST" action="admission-query-delete" acceptCharset="UTF-8" encType="multipart/form-data"><input name="_token" type="hidden" value="G92gWikmGgoj8wSjZJ4xQU01Wvccki6YfQoZ3R53" />
                                         <input type="hidden" name="id" value="" />
                                         <button class="primary-btn fix-gr-bg" type="submit">Delete</button>
                                     </form>
@@ -258,7 +258,7 @@ function AdmissionQuery() {
                                 <h4 class="modal-title">Admission Query</h4>
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
                             </div>
-                            <form method="POST" action="https://lms.webdigitalmantra.in/admission-query-store-a" acceptCharset="UTF-8" class="form-horizontal" encType="multipart/form-data" id="admission-query-store"><input name="_token" type="hidden" value="G92gWikmGgoj8wSjZJ4xQU01Wvccki6YfQoZ3R53" />
+                            <form method="POST" action="admission-query-store-a" acceptCharset="UTF-8" class="form-horizontal" encType="multipart/form-data" id="admission-query-store"><input name="_token" type="hidden" value="G92gWikmGgoj8wSjZJ4xQU01Wvccki6YfQoZ3R53" />
                                 <div class="modal-body">
                                     <div class="container-fluid">
                                         <form action="">

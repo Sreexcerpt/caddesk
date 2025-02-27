@@ -18,9 +18,9 @@ const SideNavaBar = () => {
                 <nav id="sidebar" class="sidebar">
 
                     <div class="sidebar-header update_sidebar">
-                        <a href="https://lms.webdigitalmantra.in/admin-dashboard" id="admin-dashboard">
-                            <img src="https://lms.webdigitalmantra.in/public/uploads/settings/45a61b6d67a9239ac7f7c8a33f6299ef.png" alt="logo" />
-                        </a>
+                        <a href="admin-dashboard" id="admin-dashboard">
+                                              <h4 style={{color:"white"}}>CAD DESK</h4>
+                         </a>
                         <a id="close_sidebar" class="d-lg-none">
                             <i class="ti-close"></i>
                         </a>
@@ -49,7 +49,7 @@ const SideNavaBar = () => {
 
                         <li class=" dashboard_section">
 
-                            <a href="https://lms.webdigitalmantra.in/menumanage">
+                            <a href="menumanage">
                                 <div class="nav_icon_small">
                                     <span class="fas fa-bars"></span>
                                 </div>
@@ -72,77 +72,48 @@ const SideNavaBar = () => {
                                     <span class="flaticon-analytics"></span>
                                 </div>
                                 <div class="nav_title">
-                                    <span>Admin Section
+                                    <span>Lead & Admission Management
                                     </span>
                                 </div>
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="/admissionquery" class="">
-                                        Admission Query </a>
+                                    <a href="/LeadTracking" class="">
+                                    Lead Capture &
+                                    Tracking </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/visitor" class="">
-                                        Visitor Book </a>
+                                    <a href="/LeadScoring" class="">
+                                    Lead Scoring &
+                                    Segmentation </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/complaint" class="">
-                                        Complaint </a>
+                                    <a href="complaint" class="">
+                                    Automated
+Follow-ups
+ </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/postal-receive" class="">
-                                        Postal Receive </a>
+                                    <a href="postal-receive" class="">
+                                    Application
+Management
+</a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/postal-dispatch" class="">
+                                    <a href="postal-dispatch" class="">
                                         Postal Dispatch </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/phone-call" class="">
-                                        Phone Call Log </a>
-                                    <ul class="list-unstyled" id="5">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/setup-admin" class="">
-                                        Admin Setup </a>
-                                    <ul class="list-unstyled" id="6">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-id-card" class="">
-                                        ID Card </a>
-                                    <ul class="list-unstyled" id="7">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-certificate" class="">
-                                        Certificate </a>
-                                    <ul class="list-unstyled" id="8">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/generate-certificate" class="">
-                                        Generate Certificate </a>
-                                    <ul class="list-unstyled" id="9">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/generate-id-card" class="">
-                                        Generate ID Card </a>
-                                    <ul class="list-unstyled" id="10">
-                                    </ul>
-                                </li>
+                               
                             </ul>
                         </li>
 
@@ -153,59 +124,44 @@ const SideNavaBar = () => {
                                     <span class="fas fa-graduation-cap"></span>
                                 </div>
                                 <div class="nav_title">
-                                    <span>Academics
+                                    <span>Student Lifecycle Management
                                     </span>
                                 </div>
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/optional-subject" class="">
-                                        Optional Subject </a>
+                                    <a href="/StudentProfileManagement" class="">
+                                    Student Profile
+Management
+ </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/section" class="">
-                                        Section </a>
+                                    <a href="/CourseBatchEnrollment" class="">
+                                    Course & Batch
+Enrollment
+ </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/class" class="">
-                                        Class </a>
+                                    <a href="class" class="">
+                                    Attendance &
+Performance 
+ </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/subject" class="">
-                                        Subjects </a>
+                                    <a href="subject" class="">
+                                    Student
+Management
+ </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/assign-class-teacher" class="">
-                                        Assign Class Teacher </a>
-                                    <ul class="list-unstyled" id="4">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/assign-subject" class="">
-                                        Assign Subject </a>
-                                    <ul class="list-unstyled" id="5">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/class-room" class="">
-                                        Class Room </a>
-                                    <ul class="list-unstyled" id="6">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/class-routine" class="">
-                                        Class Routine </a>
-                                    <ul class="list-unstyled" id="7">
-                                    </ul>
-                                </li>
+                               
                             </ul>
                         </li>
 
@@ -216,35 +172,35 @@ const SideNavaBar = () => {
                                     <span class="fas fa-solid fa-download"></span>
                                 </div>
                                 <div class="nav_title">
-                                    <span>Study Material
+                                    <span>Communication & Engagement
+
                                     </span>
                                 </div>
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/upload-content" class="">
-                                        Upload Content </a>
+                                    <a href="upload-content" class="">
+                                    Multi-channel
+                                    Communication </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/assignment-list" class="">
-                                        Assignment </a>
+                                    <a href="assignment-list" class="">
+                                    Automated Reminders
+                                    & Alerts </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/syllabus-list" class="">
-                                        Syllabus </a>
+                                    <a href="syllabus-list" class="">
+                                    Chat & Support
+System
+ </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/other-download-list" class="">
-                                        Other Downloads </a>
-                                    <ul class="list-unstyled" id="3">
-                                    </ul>
-                                </li>
+                                
                             </ul>
                         </li>
 
@@ -255,41 +211,27 @@ const SideNavaBar = () => {
                                     <span class="fas fa fa-list-alt"></span>
                                 </div>
                                 <div class="nav_title">
-                                    <span>Lesson Plan
+                                    <span>Finance & Payment Management
+
                                     </span>
                                 </div>
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/lesson" class="">
-                                        Lesson </a>
+                                    <a href="lesson" class="">
+                                    Online Fee Collection </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/lesson/topic" class="">
-                                        Topic </a>
+                                    <a href="lesson/topic" class="">
+                                    Scholarship &
+Installments
+Management</a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/lesson/topic-overview" class="">
-                                        Topic Overview </a>
-                                    <ul class="list-unstyled" id="2">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/lesson/lesson-plan" class="">
-                                        Lesson Plan </a>
-                                    <ul class="list-unstyled" id="3">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/lesson/lessonPlan-overiew" class="">
-                                        Lesson Plan Overview </a>
-                                    <ul class="list-unstyled" id="4">
-                                    </ul>
-                                </li>
+                                
                             </ul>
                         </li>
 
@@ -300,41 +242,28 @@ const SideNavaBar = () => {
                                     <span class="fas fa-print"></span>
                                 </div>
                                 <div class="nav_title">
-                                    <span>Bulk Print
+                                    <span>Reports & Analytics
+
                                     </span>
                                 </div>
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/bulkprint/student-id-card-bulk-print" class="">
-                                        ID Card </a>
+                                    <a href="bulkprint/student-id-card-bulk-print" class="">
+                                    Real-time
+                                    Dashboards </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/bulkprint/certificate-bulk-print" class="">
-                                        Certificate </a>
+                                    <a href="bulkprint/certificate-bulk-print" class="">
+                                    Predictive
+                Analytics
+                </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/bulkprint/payroll-bulk-print" class="">
-                                        Payroll Bulk Print </a>
-                                    <ul class="list-unstyled" id="2">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/bulkprint/fees-invoice-bulk-print" class="">
-                                        Fees invoice Bulk Print </a>
-                                    <ul class="list-unstyled" id="3">
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="https://lms.webdigitalmantra.in/bulkprint/fees-invoice-bulk-print-settings" class="">
-                                        Fees Invoice Bulk Print Settings </a>
-                                    <ul class="list-unstyled" id="4">
-                                    </ul>
-                                </li>
+                                
                             </ul>
                         </li>
 
@@ -351,25 +280,25 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/download-center/content-type" class="">
+                                    <a href="download-center/content-type" class="">
                                         Content Type </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/download-center/content-list" class="">
+                                    <a href="download-center/content-list" class="">
                                         Content List </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/download-center/content-share-list" class="">
+                                    <a href="download-center/content-share-list" class="">
                                         Shared Content List </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/download-center/video-list" class="">
+                                    <a href="download-center/video-list" class="">
                                         Video List </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
@@ -393,79 +322,79 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-category" class="">
+                                    <a href="student-category" class="">
                                         Student Category </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-admission" class="">
+                                    <a href="student-admission" class="">
                                         Add Student </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-list" class="">
+                                    <a href="student-list" class="">
                                         Student List </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/multi-class-student" class="">
+                                    <a href="multi-class-student" class="">
                                         Multi Class Student </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/delete-student-record" class="">
+                                    <a href="delete-student-record" class="">
                                         Delete Student Record </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/unassigned-student" class="">
+                                    <a href="unassigned-student" class="">
                                         Unassigned Student </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-attendance" class="">
+                                    <a href="student-attendance" class="">
                                         Student Attendance </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-group" class="">
+                                    <a href="student-group" class="">
                                         Student Group </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-promote" class="">
+                                    <a href="student-promote" class="">
                                         Student Promote </a>
                                     <ul class="list-unstyled" id="8">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/disabled-student" class="">
+                                    <a href="disabled-student" class="">
                                         Disabled Students </a>
                                     <ul class="list-unstyled" id="9">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/subject-wise-attendance" class="">
+                                    <a href="subject-wise-attendance" class="">
                                         Subject Wise Attendance </a>
                                     <ul class="list-unstyled" id="10">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/all-student-export" class="">
+                                    <a href="all-student-export" class="">
                                         Student Export </a>
                                     <ul class="list-unstyled" id="11">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/studentabsentnotification" class="">
+                                    <a href="studentabsentnotification" class="">
                                         SMS Sending Time </a>
                                     <ul class="list-unstyled" id="12">
                                     </ul>
@@ -486,43 +415,43 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/behaviour_records/incident" class="">
+                                    <a href="behaviour_records/incident" class="">
                                         Incidents </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/behaviour_records/assign_incident" class="">
+                                    <a href="behaviour_records/assign_incident" class="">
                                         Assign Incident </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/behaviour_records/student_incident_report" class="">
+                                    <a href="behaviour_records/student_incident_report" class="">
                                         Student Incident Report </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/behaviour_records/student_behaviour_rank_report" class="">
+                                    <a href="behaviour_records/student_behaviour_rank_report" class="">
                                         Behaviour Report </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/behaviour_records/class_section_wise_rank_report" class="">
+                                    <a href="behaviour_records/class_section_wise_rank_report" class="">
                                         Class Section Report </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/behaviour_records/incident_wise_report" class="">
+                                    <a href="behaviour_records/incident_wise_report" class="">
                                         Incident Wise Report </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/behaviour_records/setting" class="">
+                                    <a href="behaviour_records/setting" class="">
                                         Settings </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
@@ -543,31 +472,31 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/fees-group" class="">
+                                    <a href="fees/fees-group" class="">
                                         Fees Group </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/fees-type" class="">
+                                    <a href="fees/fees-type" class="">
                                         Fees Type </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/fees-invoice-list" class="">
+                                    <a href="fees/fees-invoice-list" class="">
                                         Fees Invoice </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/bank-payment" class="">
+                                    <a href="fees/bank-payment" class="">
                                         Bank Payment </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees-forward" class="">
+                                    <a href="fees-forward" class="">
                                         Fees Carry Forward </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
@@ -589,19 +518,19 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/add-homeworks" class="">
+                                    <a href="add-homeworks" class="">
                                         Add Homework </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/homework-list" class="">
+                                    <a href="homework-list" class="">
                                         Homework List </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/homework-report" class="">
+                                    <a href="homework-report" class="">
                                         Homework Report </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
@@ -622,43 +551,43 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/add-book" class="">
+                                    <a href="add-book" class="">
                                         Add Book </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/book-list" class="">
+                                    <a href="book-list" class="">
                                         Book List </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/book-category-list" class="">
+                                    <a href="book-category-list" class="">
                                         Book Categories </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/library-member" class="">
+                                    <a href="library-member" class="">
                                         Add Member </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/member-list" class="">
+                                    <a href="member-list" class="">
                                         Issue/Return Book </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/all-issed-book" class="">
+                                    <a href="all-issed-book" class="">
                                         All Issued Book </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/library-subject" class="">
+                                    <a href="library-subject" class="">
                                         Subject </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
@@ -679,19 +608,19 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/transport-route" class="">
+                                    <a href="transport-route" class="">
                                         Routes </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/vehicle" class="">
+                                    <a href="vehicle" class="">
                                         Vehicle </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/assign-vehicle" class="">
+                                    <a href="assign-vehicle" class="">
                                         Assign Vehicle </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
@@ -712,19 +641,19 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/room-list" class="">
+                                    <a href="room-list" class="">
                                         Dormitory Rooms </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/dormitory-list" class="">
+                                    <a href="dormitory-list" class="">
                                         Dormitory </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/room-type" class="">
+                                    <a href="room-type" class="">
                                         Room Type </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
@@ -748,49 +677,49 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/exam-type" class="">
+                                    <a href="exam-type" class="">
                                         Exam Type </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/exam" class="">
+                                    <a href="exam" class="">
                                         Exam Setup </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/exam-schedule" class="">
+                                    <a href="exam-schedule" class="">
                                         Exam Schedule </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/exam-attendance" class="">
+                                    <a href="exam-attendance" class="">
                                         Exam Attendance </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/marks-register" class="">
+                                    <a href="marks-register" class="">
                                         Marks Register </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/marks-grade" class="">
+                                    <a href="marks-grade" class="">
                                         Marks Grade </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/send-marks-by-sms" class="">
+                                    <a href="send-marks-by-sms" class="">
                                         Send Marks By Sms </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/custom-marksheet-report" class="">
+                                    <a href="custom-marksheet-report" class="">
                                         Marksheet Report </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
@@ -811,13 +740,13 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/examplan/admitcard" class="">
+                                    <a href="examplan/admitcard" class="">
                                         Admit Card </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/examplan/seatplan" class="">
+                                    <a href="examplan/seatplan" class="">
                                         Seat Plan </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
@@ -838,19 +767,19 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/question-group" class="">
+                                    <a href="question-group" class="">
                                         Question Group </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/question-bank" class="">
+                                    <a href="question-bank" class="">
                                         Question Bank </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/online-exam" class="">
+                                    <a href="online-exam" class="">
                                         Online Exam </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
@@ -874,37 +803,37 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/designation" class="">
+                                    <a href="designation" class="">
                                         Designation </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/department" class="">
+                                    <a href="department" class="">
                                         Department </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/add-staff" class="">
+                                    <a href="add-staff" class="">
                                         Add Staff </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/staff-directory" class="">
+                                    <a href="staff-directory" class="">
                                         Staff Directory </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/staff-attendance" class="">
+                                    <a href="staff-attendance" class="">
                                         Staff Attendance </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/payroll" class="">
+                                    <a href="payroll" class="">
                                         Payroll </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
@@ -925,25 +854,25 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/teacher-approved-evaluation-report" class="">
+                                    <a href="teacher-approved-evaluation-report" class="">
                                         Approved Report </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/teacher-pending-evaluation-report" class="">
+                                    <a href="teacher-pending-evaluation-report" class="">
                                         Pending Report </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/teacher-wise-evaluation-report" class="">
+                                    <a href="teacher-wise-evaluation-report" class="">
                                         Teacher Wise Report </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/teacher-evaluation-setting" class="">
+                                    <a href="teacher-evaluation-setting" class="">
                                         Settings </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
@@ -964,31 +893,31 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/apply-leave" class="">
+                                    <a href="apply-leave" class="">
                                         Apply Leave </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/approve-leave" class="">
+                                    <a href="approve-leave" class="">
                                         Approve Leave Request </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/pending-leave" class="">
+                                    <a href="pending-leave" class="">
                                         Pending Leave Request </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/leave-define" class="">
+                                    <a href="leave-define" class="">
                                         Leave Define </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/leave-type" class="">
+                                    <a href="leave-type" class="">
                                         Leave Type </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
@@ -1009,19 +938,19 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/login-access-control" class="">
+                                    <a href="login-access-control" class="">
                                         Login Permission </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/rolepermission/role" class="">
+                                    <a href="rolepermission/role" class="">
                                         Role </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/due_fees_login_permission" class="">
+                                    <a href="due_fees_login_permission" class="">
                                         Due Fees Login Permission </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
@@ -1045,31 +974,31 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/wallet/pending-diposit" class="">
+                                    <a href="wallet/pending-diposit" class="">
                                         Pending Deposit </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/wallet/approve-diposit" class="">
+                                    <a href="wallet/approve-diposit" class="">
                                         Approve Deposit </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/wallet/reject-diposit" class="">
+                                    <a href="wallet/reject-diposit" class="">
                                         Reject Deposit </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/wallet/wallet-transaction" class="">
+                                    <a href="wallet/wallet-transaction" class="">
                                         Wallet Transaction </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/wallet/wallet-refund-request" class="">
+                                    <a href="wallet/wallet-refund-request" class="">
                                         Refund Request </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
@@ -1090,37 +1019,37 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/profit" class="">
+                                    <a href="profit" class="">
                                         Profit &amp; Loss </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/add-income" class="">
+                                    <a href="add-income" class="">
                                         Income </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/add-expense" class="">
+                                    <a href="add-expense" class="">
                                         Expense </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/chart-of-account" class="">
+                                    <a href="chart-of-account" class="">
                                         Chart Of Account </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/bank-account" class="">
+                                    <a href="bank-account" class="">
                                         Bank Account </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fund-transfer" class="">
+                                    <a href="fund-transfer" class="">
                                         Fund Transfer </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
@@ -1141,49 +1070,49 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/item-category" class="">
+                                    <a href="item-category" class="">
                                         Item Category </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/item-list" class="">
+                                    <a href="item-list" class="">
                                         Item List </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/item-store" class="">
+                                    <a href="item-store" class="">
                                         Item Store </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/suppliers" class="">
+                                    <a href="suppliers" class="">
                                         Supplier </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/item-receive" class="">
+                                    <a href="item-receive" class="">
                                         Item Receive </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/item-receive-list" class="">
+                                    <a href="item-receive-list" class="">
                                         Item Receive List </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/item-sell-list" class="">
+                                    <a href="item-sell-list" class="">
                                         Item Sell </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/item-issue" class="">
+                                    <a href="item-issue" class="">
                                         Item Issue </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
@@ -1207,19 +1136,19 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/chat/open" class="">
+                                    <a href="chat/open" class="">
                                         Chat Box </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/chat/invitation/index" class="">
+                                    <a href="chat/invitation/index" class="">
                                         Invitation </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/chat/users/blocked" class="">
+                                    <a href="chat/users/blocked" class="">
                                         Blocked User </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
@@ -1240,43 +1169,43 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/notice-list" class="">
+                                    <a href="notice-list" class="">
                                         Notice Board </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/send-email-sms-view" class="">
+                                    <a href="send-email-sms-view" class="">
                                         Send Email / Sms </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/email-sms-log" class="">
+                                    <a href="email-sms-log" class="">
                                         Email / Sms Log </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/event" class="">
+                                    <a href="event" class="">
                                         Event </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/academic-calendar" class="">
+                                    <a href="academic-calendar" class="">
                                         Calendar </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/templatesettings/email-template" class="">
+                                    <a href="templatesettings/email-template" class="">
                                         Email Template </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/templatesettings/sms-template" class="">
+                                    <a href="templatesettings/sms-template" class="">
                                         Sms Template </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
@@ -1297,13 +1226,13 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/background-setting" class="">
+                                    <a href="background-setting" class="">
                                         BackGround Settings </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/color-style" class="">
+                                    <a href="color-style" class="">
                                         Color Theme </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
@@ -1327,19 +1256,19 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-attendance-report" class="">
+                                    <a href="student-attendance-report" class="">
                                         Student Attendance Report </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/subject-attendance-report" class="">
+                                    <a href="subject-attendance-report" class="">
                                         Subject Attendance Report </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/evaluation-report" class="">
+                                    <a href="evaluation-report" class="">
                                         Homework Evaluation Report </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
@@ -1357,49 +1286,49 @@ const SideNavaBar = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/guardian-report" class="">
+                                    <a href="guardian-report" class="">
                                         Guardian Reports </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-history" class="">
+                                    <a href="student-history" class="">
                                         Student History </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-login-report" class="">
+                                    <a href="student-login-report" class="">
                                         Student Login Report </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/class-report" class="">
+                                    <a href="class-report" class="">
                                         Class Report </a>
                                     <ul class="list-unstyled" id="8">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/class-routine-report" class="">
+                                    <a href="class-routine-report" class="">
                                         Class Routine </a>
                                     <ul class="list-unstyled" id="9">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/user-log" class="">
+                                    <a href="user-log" class="">
                                         User Log </a>
                                     <ul class="list-unstyled" id="10">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-report" class="">
+                                    <a href="student-report" class="">
                                         Student Report </a>
                                     <ul class="list-unstyled" id="11">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/previous-record" class="">
+                                    <a href="previous-record" class="">
                                         Previous Record </a>
                                     <ul class="list-unstyled" id="12">
                                     </ul>
@@ -1426,49 +1355,49 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/exam-routine-report" class="">
+                                    <a href="exam-routine-report" class="">
                                         Exam Routine </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/merit-list-report" class="">
+                                    <a href="merit-list-report" class="">
                                         Merit List Report </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/online-exam-report" class="">
+                                    <a href="online-exam-report" class="">
                                         Online Exam Report </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/mark-sheet-report-student" class="">
+                                    <a href="mark-sheet-report-student" class="">
                                         Mark Sheet Report </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/tabulation-sheet-report" class="">
+                                    <a href="tabulation-sheet-report" class="">
                                         Tabulation Sheet Report </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/progress-card-report" class="">
+                                    <a href="progress-card-report" class="">
                                         Progress Card Report </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/custom-progress-card-report-percent" class="">
+                                    <a href="custom-progress-card-report-percent" class="">
                                         Progress Card Report 100 Percent </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/previous-class-results" class="">
+                                    <a href="previous-class-results" class="">
                                         Previous Result </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
@@ -1489,13 +1418,13 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/staff-attendance-report" class="">
+                                    <a href="staff-attendance-report" class="">
                                         Staff Attendance Report </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/payroll-report" class="">
+                                    <a href="payroll-report" class="">
                                         Payroll Report </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
@@ -1516,37 +1445,37 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/due-fees" class="">
+                                    <a href="fees/due-fees" class="">
                                         Fees Due Report </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/fine-report" class="">
+                                    <a href="fees/fine-report" class="">
                                         Fine Report </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/payment-report" class="">
+                                    <a href="fees/payment-report" class="">
                                         Payment Report </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/balance-report" class="">
+                                    <a href="fees/balance-report" class="">
                                         Balance Report </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/waiver-report" class="">
+                                    <a href="fees/waiver-report" class="">
                                         Waiver Report </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/wallet/wallet-report" class="">
+                                    <a href="wallet/wallet-report" class="">
                                         Wallet Report </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
@@ -1573,13 +1502,13 @@ const SideNavaBar = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/accounts-payroll-report" class="">
+                                    <a href="accounts-payroll-report" class="">
                                         Payroll Report </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/transaction" class="">
+                                    <a href="transaction" class="">
                                         Transaction </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
@@ -1587,7 +1516,7 @@ const SideNavaBar = () => {
                             </ul>
                         </li>
 
-                        <span class="menu_seperator" id="seperator_settings_section" data-section="settings_section">Settings Section </span>
+                        {/* <span class="menu_seperator" id="seperator_settings_section" data-section="settings_section">Settings Section </span>
 
 
                         <li class=" settings_section">
@@ -1603,13 +1532,13 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-registration-custom-field" class="">
+                                    <a href="student-registration-custom-field" class="">
                                         Student Registration </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/staff-reg-custom-field" class="">
+                                    <a href="staff-reg-custom-field" class="">
                                         Staff Registration </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
@@ -1630,163 +1559,163 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/student-settings" class="">
+                                    <a href="student-settings" class="">
                                         Student Settings </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/two_factor_auth_setting" class="">
+                                    <a href="two_factor_auth_setting" class="">
                                         Two Factor Setting </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/lesson/lessonPlan-setting" class="">
+                                    <a href="lesson/lessonPlan-setting" class="">
                                         Lesson plan setting </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/staff-settings" class="">
+                                    <a href="staff-settings" class="">
                                         Staff Settings </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/chat/settings" class="">
+                                    <a href="chat/settings" class="">
                                         Chat Settings </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/general-settings" class="">
+                                    <a href="general-settings" class="">
                                         General Settings </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/optional-subject-setup" class="">
+                                    <a href="optional-subject-setup" class="">
                                         Optional Subject </a>
                                     <ul class="list-unstyled" id="8">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/academic-year" class="">
+                                    <a href="academic-year" class="">
                                         Academic Year </a>
                                     <ul class="list-unstyled" id="9">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/holiday" class="">
+                                    <a href="holiday" class="">
                                         Holiday </a>
                                     <ul class="list-unstyled" id="10">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/manage-adons" class="">
+                                    <a href="manage-adons" class="">
                                         Module manager </a>
                                     <ul class="list-unstyled" id="11">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/notification_settings" class="">
+                                    <a href="notification_settings" class="">
                                         Notification Setting </a>
                                     <ul class="list-unstyled" id="12">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/plugin/tawk-setting" class="">
+                                    <a href="plugin/tawk-setting" class="">
                                         Tawk To Chat </a>
                                     <ul class="list-unstyled" id="13">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/plugin/facebook-messenger-setting" class="">
+                                    <a href="plugin/facebook-messenger-setting" class="">
                                         Messenger Chat </a>
                                     <ul class="list-unstyled" id="14">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/manage-currency" class="">
+                                    <a href="manage-currency" class="">
                                         Manage Currency </a>
                                     <ul class="list-unstyled" id="15">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/email-settings" class="">
+                                    <a href="email-settings" class="">
                                         Email Settings </a>
                                     <ul class="list-unstyled" id="16">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/payment-method-settings" class="">
+                                    <a href="payment-method-settings" class="">
                                         Payment Settings </a>
                                     <ul class="list-unstyled" id="17">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/base-setup" class="">
+                                    <a href="base-setup" class="">
                                         Base Setup </a>
                                     <ul class="list-unstyled" id="18">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/sms-settings" class="">
+                                    <a href="sms-settings" class="">
                                         Sms Settings </a>
                                     <ul class="list-unstyled" id="19">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/weekend" class="">
+                                    <a href="weekend" class="">
                                         Weekend </a>
                                     <ul class="list-unstyled" id="20">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/language-settings" class="">
+                                    <a href="language-settings" class="">
                                         Language Settings </a>
                                     <ul class="list-unstyled" id="21">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/backup-settings" class="">
+                                    <a href="backup-settings" class="">
                                         Backup </a>
                                     <ul class="list-unstyled" id="22">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/button-disable-enable" class="">
+                                    <a href="button-disable-enable" class="">
                                         Dashboard </a>
                                     <ul class="list-unstyled" id="23">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/update-system" class="">
+                                    <a href="update-system" class="">
                                         About &amp; update </a>
                                     <ul class="list-unstyled" id="24">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/api/permission" class="">
+                                    <a href="api/permission" class="">
                                         Api permission </a>
                                     <ul class="list-unstyled" id="25">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/language-list" class="">
+                                    <a href="language-list" class="">
                                         Language </a>
                                     <ul class="list-unstyled" id="26">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/preloader-setting" class="">
+                                    <a href="preloader-setting" class="">
                                         Preloader Settings </a>
                                     <ul class="list-unstyled" id="27">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/utility" class="">
+                                    <a href="utility" class="">
                                         Utilities </a>
                                     <ul class="list-unstyled" id="28">
                                     </ul>
@@ -1807,145 +1736,145 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/theme/index" class="">
+                                    <a href="theme/index" class="">
                                         Manage Theme </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/home-slider" class="">
+                                    <a href="home-slider" class="">
                                         Home Slider </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/pages" class="">
+                                    <a href="pages" class="">
                                         Aora Pagebuilder </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/expert-teacher" class="">
+                                    <a href="expert-teacher" class="">
                                         Expert Teacher </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/photo-gallery" class="">
+                                    <a href="photo-gallery" class="">
                                         Photo Gallery </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/video-gallery" class="">
+                                    <a href="video-gallery" class="">
                                         Video Gallery </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/front-result" class="">
+                                    <a href="front-result" class="">
                                         Result </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/front-class-routine" class="">
+                                    <a href="front-class-routine" class="">
                                         Class Routine </a>
                                     <ul class="list-unstyled" id="7">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/front-exam-routine" class="">
+                                    <a href="front-exam-routine" class="">
                                         Exam Routine </a>
                                     <ul class="list-unstyled" id="8">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/front-academic-calendar" class="">
+                                    <a href="front-academic-calendar" class="">
                                         Academic Calendar </a>
                                     <ul class="list-unstyled" id="9">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/header/build" class="">
+                                    <a href="header/build" class="">
                                         Header Content </a>
                                     <ul class="list-unstyled" id="10">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/footer/build" class="">
+                                    <a href="footer/build" class="">
                                         Footer Content </a>
                                     <ul class="list-unstyled" id="11">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/news" class="">
+                                    <a href="news" class="">
                                         News List </a>
                                     <ul class="list-unstyled" id="12">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/news-category" class="">
+                                    <a href="news-category" class="">
                                         News Category </a>
                                     <ul class="list-unstyled" id="13">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/news-comment-list" class="">
+                                    <a href="news-comment-list" class="">
                                         News Comments </a>
                                     <ul class="list-unstyled" id="14">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/testimonial" class="">
+                                    <a href="testimonial" class="">
                                         Testimonial </a>
                                     <ul class="list-unstyled" id="15">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/course-list" class="">
+                                    <a href="course-list" class="">
                                         Course List </a>
                                     <ul class="list-unstyled" id="16">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/contact-message" class="">
+                                    <a href="contact-message" class="">
                                         Contact Message </a>
                                     <ul class="list-unstyled" id="17">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/header-menu-manager" class="">
+                                    <a href="header-menu-manager" class="">
                                         Menu </a>
                                     <ul class="list-unstyled" id="18">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/page-list" class="">
+                                    <a href="page-list" class="">
                                         Pages </a>
                                     <ul class="list-unstyled" id="19">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/course-category" class="">
+                                    <a href="course-category" class="">
                                         Course Category </a>
                                     <ul class="list-unstyled" id="20">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/speech-slider" class="">
+                                    <a href="speech-slider" class="">
                                         Speech Slider </a>
                                     <ul class="list-unstyled" id="21">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/donor" class="">
+                                    <a href="donor" class="">
                                         Donor </a>
                                     <ul class="list-unstyled" id="22">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/form-download" class="">
+                                    <a href="form-download" class="">
                                         Form Download </a>
                                     <ul class="list-unstyled" id="23">
                                     </ul>
@@ -1966,7 +1895,7 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/fees/fees-invoice-settings" class="">
+                                    <a href="fees/fees-invoice-settings" class="">
                                         Fees Invoice Settings </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
@@ -1987,49 +1916,49 @@ const SideNavaBar = () => {
                             </a>
                             <ul class="mm-collapse">
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/exam-settings" class="">
+                                    <a href="exam-settings" class="">
                                         Format Settings </a>
                                     <ul class="list-unstyled" id="0">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/custom-result-setting" class="">
+                                    <a href="custom-result-setting" class="">
                                         Setup Exam Rule </a>
                                     <ul class="list-unstyled" id="1">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/exam-report-position" class="">
+                                    <a href="exam-report-position" class="">
                                         Position </a>
                                     <ul class="list-unstyled" id="2">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/all-exam-report-position" class="">
+                                    <a href="all-exam-report-position" class="">
                                         All Exam Position </a>
                                     <ul class="list-unstyled" id="3">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/exam-signature-settings" class="">
+                                    <a href="exam-signature-settings" class="">
                                         Exam Signature Settings </a>
                                     <ul class="list-unstyled" id="4">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/examplan/admitcard/setting" class="">
+                                    <a href="examplan/admitcard/setting" class="">
                                         Admit Card Setting </a>
                                     <ul class="list-unstyled" id="5">
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="https://lms.webdigitalmantra.in/examplan/seatplan/setting" class="">
+                                    <a href="examplan/seatplan/setting" class="">
                                         Seat Plan Setting </a>
                                     <ul class="list-unstyled" id="6">
                                     </ul>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
 
 
 

@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from '../../Component/Header/Header'
+import BarChart from '../../Component/Chart/BarChart'
+import LineChar from '../../Component/Chart/LineChar'
 
 const DashBoard = () => {
   return (
@@ -12,14 +14,14 @@ const DashBoard = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="main-title">
-                                    <h3 className="mb-15">Welcome - Web Digital Mantra | Super admin</h3>
+                                    <h3 className="mb-15">Welcome - CAD DESK | Super admin</h3>
                                 </div>
                             </div>
                         </div>
 
                         <div className="row row-gap-24">
                             <div className="col-lg-3 col-md-6 col-sm-6">
-                                <a href="https://lms.webdigitalmantra.in/student-list" className="d-block">
+                                <a href="student-list" className="d-block">
                                     <div className="white-box single-summery cyan">
                                         <div className="d-flex justify-content-between">
                                             <div>
@@ -27,22 +29,22 @@ const DashBoard = () => {
                                                 <p className="mb-0">Total Students</p>
                                             </div>
                                             <h1 className="gradient-color2">
-                                                7
+                                                1050
                                             </h1>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6">
-                                <a href="https://lms.webdigitalmantra.in/staff-directory" className="d-block">
+                                <a href="staff-directory" className="d-block">
                                     <div className="white-box single-summery violet">
                                         <div className="d-flex justify-content-between">
                                             <div>
-                                                <h3>Teachers</h3>
-                                                <p className="mb-0">Total Teachers</p>
+                                                <h3>Lead</h3>
+                                                <p className="mb-0">Total Leads</p>
                                             </div>
                                             <h1 className="gradient-color2">
-                                                3
+                                                300
                                             </h1>
                                         </div>
                                     </div>
@@ -54,26 +56,27 @@ const DashBoard = () => {
                                     <div className="white-box single-summery blue">
                                         <div className="d-flex justify-content-between">
                                             <div>
-                                                <h3>Parents</h3>
-                                                <p className="mb-0">Total Parents</p>
+                                                <h3>Reminders
+</h3>
+                                                <p className="mb-0">Total Alerts</p>
                                             </div>
                                             <h1 className="gradient-color2">
-                                                7
+                                                1125
                                             </h1>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6">
-                                <a href="https://lms.webdigitalmantra.in/staff-directory" className="d-block">
+                                <a href="staff-directory" className="d-block">
                                     <div className="white-box single-summery fuchsia">
                                         <div className="d-flex justify-content-between">
                                             <div>
-                                                <h3>Staffs</h3>
-                                                <p className="mb-0">Total Staffs</p>
+                                                <h3>Reports</h3>
+                                                <p className="mb-0">Total Reports</p>
                                             </div>
                                             <h1 className="gradient-color2">
-                                                4
+                                                15
                                             </h1>
                                         </div>
                                     </div>
@@ -145,7 +148,10 @@ const DashBoard = () => {
                                 </div>
                             </div>
                             <div class="col-lg-12">
-                                <div id="commonBarChart" style={{height: "350px", paddingRight: "20px"}}></div>
+                                <div id="commonBarChart" style={{height: "350px", paddingRight: "20px"}}>
+                                    <BarChart/>
+                                </div>
+                                
                             </div>
                         </div>
                     </div>
@@ -214,7 +220,9 @@ const DashBoard = () => {
                             </div>
 
                             <div class="col-lg-12">
-                                <div id="commonAreaChart" style={{height: "350px"}}></div>
+                                <div id="commonAreaChart" style={{height: "350px"}}>
+                                    <LineChar/>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -236,7 +244,7 @@ const DashBoard = () => {
                                 </div>
                             </div>
                             <div class="col-lg-6 col-5 ml-auto pull-right text-right text-nowrap">
-                                <a href="https://lms.webdigitalmantra.in/add-notice" class="primary-btn small fix-gr-bg"> <span
+                                <a href="add-notice" class="primary-btn small fix-gr-bg"> <span
                                         class="ti-plus pr-2"></span> Add </a>
                             </div>
 
@@ -260,7 +268,7 @@ const DashBoard = () => {
                                             </td>
                                             <td>Spring Art Contest</td>
                                             <td class="d-flex justify-content-around">
-                                                <a href="https://lms.webdigitalmantra.in/view/notice/1" title="View Notice" class="primary-btn small tr-bg modalLink" data-modal-size="modal-lg"><span
+                                                <a href="view/notice/1" title="View Notice" class="primary-btn small tr-bg modalLink" data-modal-size="modal-lg"><span
                                                     class="ti-eye"></span></a>
                                             </td>
                                         </tr>
@@ -272,7 +280,7 @@ const DashBoard = () => {
                                             </td>
                                             <td>School Talent Show</td>
                                             <td class="d-flex justify-content-around">
-                                                <a href="https://lms.webdigitalmantra.in/view/notice/6" title="View Notice" class="primary-btn small tr-bg modalLink" data-modal-size="modal-lg"><span
+                                                <a href="view/notice/6" title="View Notice" class="primary-btn small tr-bg modalLink" data-modal-size="modal-lg"><span
                                                     class="ti-eye"></span></a>
                                             </td>
                                         </tr>
@@ -284,7 +292,7 @@ const DashBoard = () => {
                                             </td>
                                             <td>Parent Teacher Meeting</td>
                                             <td class="d-flex justify-content-around">
-                                                <a href="https://lms.webdigitalmantra.in/view/notice/7" title="View Notice" class="primary-btn small tr-bg modalLink" data-modal-size="modal-lg"><span
+                                                <a href="view/notice/7" title="View Notice" class="primary-btn small tr-bg modalLink" data-modal-size="modal-lg"><span
                                                     class="ti-eye"></span></a>
                                             </td>
                                         </tr>
@@ -296,7 +304,7 @@ const DashBoard = () => {
                                             </td>
                                             <td>Library Book Fair</td>
                                             <td class="d-flex justify-content-around">
-                                                <a href="https://lms.webdigitalmantra.in/view/notice/8" title="View Notice" class="primary-btn small tr-bg modalLink" data-modal-size="modal-lg"><span
+                                                <a href="view/notice/8" title="View Notice" class="primary-btn small tr-bg modalLink" data-modal-size="modal-lg"><span
                                                     class="ti-eye"></span></a>
                                             </td>
                                         </tr>
@@ -339,7 +347,7 @@ const DashBoard = () => {
                                                         <div class="row mb-40">
                                                             <div class="col-lg-12">
                                                                 <div>
-                                                                    <form method="POST" action="https://lms.webdigitalmantra.in/store-academic-calendar-settings" accept-charset="UTF-8"><input name="_token" type="hidden" value="tEK0Z79tAoOvgelV5lzYHxyoxA7uyMB12rElmGdL"/>
+                                                                    <form method="POST" action="store-academic-calendar-settings" accept-charset="UTF-8"><input name="_token" type="hidden" value="tEK0Z79tAoOvgelV5lzYHxyoxA7uyMB12rElmGdL"/>
                                                                         <div class="row">
                                                                             <div class="col-lg-6">
                                                                                 <div class="container">
@@ -1180,7 +1188,7 @@ const DashBoard = () => {
 
                                         <div class="modal-body">
                                             <div class="container-fluid">
-                                                <form method="POST" action="https://lms.webdigitalmantra.in/saveToDoData" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data" onsubmit="return validateToDoForm()"><input name="_token" type="hidden" value="tEK0Z79tAoOvgelV5lzYHxyoxA7uyMB12rElmGdL"/>
+                                                <form method="POST" action="saveToDoData" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data" onsubmit="return validateToDoForm()"><input name="_token" type="hidden" value="tEK0Z79tAoOvgelV5lzYHxyoxA7uyMB12rElmGdL"/>
 
                                                     <div class="row">
                                                         <div class="col-lg-12">
